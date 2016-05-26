@@ -1,6 +1,23 @@
 # loader-utils
 Collection of built-in lifecycle-aware Loader implementations
 
+Download
+-------
+**Step 1**. Add the JitPack repository to your root build file.
+```groovy
+allprojects {
+  repositories {
+    maven { url "https://jitpack.io" }
+  }
+}
+```
+**Step 2**. Add the dependency.
+```groovy
+dependencies {
+  compile 'com.github.skedgo:loader-utils:v1.0'
+}
+```
+
 License
 -------
 
